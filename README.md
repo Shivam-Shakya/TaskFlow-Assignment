@@ -25,7 +25,7 @@ https://YOUR-BACKEND-URL.onrender.com
 
 ## GitHub Repository
 
-https://github.com/YOUR-USERNAME/taskflow-assignment
+https://github.com/Shivam-Shakya/TaskFlow-Assignment/tree/main
 
 > Replace this with your actual GitHub repository URL.
 
