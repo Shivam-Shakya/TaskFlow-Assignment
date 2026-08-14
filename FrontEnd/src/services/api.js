@@ -24,8 +24,7 @@ async function request(endpoint, options = {}) {
 
   if (!response.ok) {
     throw new Error(
-      data?.message ||
-        "Something went wrong with the server."
+      data?.message || "Something went wrong"
     );
   }
 
@@ -56,10 +55,7 @@ export async function deleteTask(taskId) {
   });
 }
 
-export async function moveTask(
-  taskId,
-  columnId
-) {
+export async function moveTask(taskId, columnId) {
   return request(`/tasks/${taskId}/move`, {
     method: "PATCH",
     body: JSON.stringify({
