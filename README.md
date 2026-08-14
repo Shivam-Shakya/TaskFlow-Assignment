@@ -14,10 +14,10 @@ database persistence, and backend tests.
 ## Live Demo
 
 Frontend:
-https://YOUR-FRONTEND-URL.vercel.app
+https://task-flow-assignment-zeta.vercel.app/
 
 Backend API:
-https://YOUR-BACKEND-URL.onrender.com
+https://taskflow-assignment-29fm.onrender.com/api/health
 
 > Replace the above URLs with the actual deployed URLs after deployment.
 
